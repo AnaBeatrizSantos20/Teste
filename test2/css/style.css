@@ -1,0 +1,183 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 0;
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    background-color: blueviolet;
+    
+}
+
+.principal{
+    
+    width: 1200px;
+    height: inherit;
+    background-color: red ;
+    margin: auto;
+}
+
+.principal h1{
+    padding-top: 20px;
+    color: white;
+}
+
+#titulo{
+    width: 800px;
+    height: 100px;
+    background-color: black;
+    text-align: center;
+    margin: auto;
+    
+}
+
+#imagem{
+    width: 100%;
+    height: 500px;
+    /* Coloca uma imagem de fundo */
+    background-image: url(../imagem/download.jpg);
+    /* Permite que a imagem  não se repita caso for menor que o espaço*/
+    background-repeat: no-repeat;
+    /* Permite alinhar a imagem dentro da div*/
+    background-position: top;
+     /* Permite ajustar o tamnho da imagem em: px, %, etc. 
+        - cover - Aplica um estilo de zoom na imagem, fazendo com que ela ocupe todo o espaço na div*/
+    background-size: cover;
+    /* Permite travar a imagem no fundo, para aplicar um efeito de transição entre elementos*/
+    background-attachment: fixed;
+
+}
+
+#search{
+    width: 100%;
+    height: 80px;
+    background-color: greenyellow;
+}
+
+#search .principal{
+    padding-top: 20px;
+}
+
+#seach label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+#search input[type=text]{
+    width: 300px;
+    height: 30px;
+}
+
+#search input[type=button]{
+    width: 100px;
+    height: 40px;
+    background-color: cornflowerblue;
+    color: #000000;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#cardsPersonagens{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-color: darkgrey;
+}
+
+#cardsPersonagens .principal{
+    padding-top: 20px;
+}
+
+.card{
+    width: 380px;
+    height: 600px;
+    background-color: #000000;
+    float: left;
+    margin-left: 38px;
+    margin-bottom: 38px;
+    
+}
+
+.card figure{
+    width: 280px;
+    height: 318px;
+    margin: auto;
+    margin-top: 20px;
+    
+}
+
+.card figure img{
+    width: inherit;
+    height: inherit;
+}
+
+.card  h2{
+    width: 75%;
+    height: 50px;
+    margin: auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-top: 40px;
+    padding-bottom: 15px;
+    color: white;
+}
+
+.status{
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: white;
+}
+
+.textGrey{
+    width: 75%;
+    height: 75px;
+    align-items: center;
+    text-transform: capitalize;
+    color: white;
+    font-size: 1em;
+    margin: auto;
+    text-align: center;
+    display: block;
+    
+    
+}
+
+
+/*
+.card h3{
+    width: 50%;
+    height: 50px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+    color: white;
+}
+
+*/
+
+/*
+    .isbn, .valor{
+    width: 75%;
+    height: 30px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    
+        display: block;
+    }
+    
+    .valor{
+        margin-bottom: 20px;
+    }
+*/
+
+/* display - Padroniza a tag span, para ser um elemento de container.
+        Se não colocar o dislpay, ela não fará nada. */
